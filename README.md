@@ -13,7 +13,9 @@ String randomIban3=randomIBAN.generate();
 
 Sample Example to test valid Iban and uniqueness of the generated IBAN: 
 ```java
-RandomIBAN.isValid("DE89370400440532013000");
+RandomIBAN.isValid("DE89370400440532013000"); //to test valid
+
+ArrayList<String> uniqueIbans = new ArrayList<>(); // to test uniqueness random iban
 RandomIBAN randomIBAN_NL = CountriesIBANFormat.getInstance().getIbanFormatByCountry("NL");
         for (int i = 0; i < 100; i++) {
             String iban = randomIBAN_NL.generate();
