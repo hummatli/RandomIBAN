@@ -1,7 +1,7 @@
 # RandomIBAN
 Java library for generate and validate random International Bank Account Numbers 
 
-The library provide functionality to generate valid RANDOM IBAN's for different countries. Valid in this context means syntactically valid according to the ISO standard. Can add and remove counrty iban format from [link](src/main/resources/com/random/CountriesIBANFormat.properties)
+The library provide functionality to generate valid RANDOM IBAN's for different countries. Valid in this context means syntactically valid according to the ISO standard. Can add,remove and change country iban format from [link](src/main/resources/com/random/CountriesIBANFormat.properties)
 
 Sample Example to generate random IBAN :
 ```java
