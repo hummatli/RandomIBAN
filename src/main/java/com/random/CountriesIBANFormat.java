@@ -34,7 +34,7 @@ public final class CountriesIBANFormat {
         initFromResourse();
     }
 
-    public void initFromResourse() {
+    public void initFromResourse() {  //TO load all exist country format
 
         if (ibanFormats != null) {
 
